@@ -1,4 +1,16 @@
-    form {
+/* Custom CSS3 for the RAAMC new web site.
+ * Mark Addinall
+ * January 2014
+ *
+ * They seemed to like this form, so I am going to use the overall
+ * design in the main style.css with a few more tweaks, bells and whistles!
+ *
+ * Lightweight.  Verifies as CSS3 as usual.
+ *
+*/
+
+   
+form {
         border: 1px solid #003300;
         width: 250px;
         -moz-border-radius: 20px;

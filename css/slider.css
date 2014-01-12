@@ -1,3 +1,17 @@
+/* Custom CSS3 for the RAAMC new web site.
+ * Mark Addinall
+ * January 2014
+ *
+ *  A CSS3 only slider.  I got sick of seeing Javascript
+ *  sliders that comprised of 80,000 lines of absolute
+ *  crap so I wrote this one for ALL of myu systems.
+ *  It is RESPONSIVE, FLUID and bloody convenient.
+ *
+ *
+ * VERY Lightweight.  Verifies as CSS3 as usual.
+ *
+*/
+
 @-webkit-keyframes slidey {
     20% { left: 0%; }
     25% { left: -100%; }

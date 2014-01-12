@@ -34,13 +34,17 @@
 
   
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>RAAMC Association National</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 <meta name="description" content="A web site created for the members of the Royal Australian Army Medical Corps Association." />
 <meta name="author" content="Mark Addinall.  Brisbane. Australia"  />
 
+<link href='http://fonts.googleapis.com/css?family=Josefin+Slab' rel='stylesheet' type='text/css' />
+
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <link rel="stylesheet" type="text/css" href="css/slider.css">
+<link rel="stylesheet" type="text/css" href="css/menu.css">
 
+<title>RAAMC Association National</title>
 
 <!-- I am going to include a LEETLE bit of Javascript
      to stick some extra verification on a couple of input fields.  I THOUGHT
@@ -68,30 +72,46 @@ if ($debug) {
 
     <div id="container">
         <div id="header">
-            <h1>Here in the Header</h1>
-            <div id="slider">
-                <figure>
-                    <img src="images/army1.jpg" alt="">
-                    <img src="images/army2.jpg" alt="">
-                    <img src="images/army3.jpg" alt="">
-                    <img src="images/navy2.jpg" alt="">
-                    <img src="images/army1.jpg" alt="">
-                </figure>
+            <h1>Here in the Header - This is my day one wire frame.</h1>
+            <div id="head_left">
+                <ul class="bmenu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Army News</a></li>
+                    <li><a href="#">Stuff</a></li>
+                </ul>
+            </div>
+            <div id="head_right">
+                <div id="slider">
+                    <figure>
+                        <img src="images/army1.jpg" alt="">
+                        <img src="images/army2.jpg" alt="">
+                        <img src="images/army3.jpg" alt="">
+                        <img src="images/navy2.jpg" alt="">
+                        <img src="images/army1.jpg" alt="">
+                    </figure>
+                </div>
             </div>
         </div>
 
-        <div id="column_one">
-            <p class="p1">
+
+        <div id="content">
+            <div id="column_one">
+                <p class="p1">
                 Here we are in the left float...
-            </p>
-        </div>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </div>
 
-        <div id="column_two">
-            <p class ="p2">
-                Here we are in the right float..."
-            </p>
+            <div id="column_two">
+                <p class ="p2">
+            Here we are in the right float..."
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+                </p>
+            </div>
         </div>
-
         <div id="footer">
             <p class="p3">
                 Here in the footer!
