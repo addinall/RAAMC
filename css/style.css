@@ -1,4 +1,4 @@
-    * {
+ * {
         margin: 0px;
         padding: 0px;outline: none;
  }
@@ -22,16 +22,16 @@
   }  
       
       
-    html,body {
-        background: rgba(242,230,236,1);
-        background: -moz-linear-gradient(top, rgba(242,230,236,1) 0%, rgba(255,140,201,1) 100%);
-        background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(242,230,236,1)), color-stop(100%, rgba(255,140,201,1)));
-        background: -webkit-linear-gradient(top, rgba(242,230,236,1) 0%, rgba(255,140,201,1) 100%);
-        background: -o-linear-gradient(top, rgba(242,230,236,1) 0%, rgba(255,140,201,1) 100%);
-        background: -ms-linear-gradient(top, rgba(242,230,236,1) 0%, rgba(255,140,201,1) 100%);
-        background: linear-gradient(to bottom, rgba(242,230,236,1) 0%, rgba(255,140,201,1) 100%);
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2e6ec', endColorstr='#ff8cc9', GradientType=0 );
-        background-attachment:fixed;       
+  html,body {
+background: rgba(221,247,201,1);
+background: -moz-linear-gradient(top, rgba(221,247,201,1) 0%, rgba(62,128,4,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(221,247,201,1)), color-stop(100%, rgba(62,128,4,1)));
+background: -webkit-linear-gradient(top, rgba(221,247,201,1) 0%, rgba(62,128,4,1) 100%);
+background: -o-linear-gradient(top, rgba(221,247,201,1) 0%, rgba(62,128,4,1) 100%);
+background: -ms-linear-gradient(top, rgba(221,247,201,1) 0%, rgba(62,128,4,1) 100%);
+background: linear-gradient(to bottom, rgba(221,247,201,1) 0%, rgba(62,128,4,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ddf7c9', endColorstr='#3e8004', GradientType=0 );
+    background-attachment:fixed;       
     }
      
 
@@ -51,7 +51,6 @@
         width: 50%;
         float: left;
           border: 2px solid green;
-      }
       }
       
       
@@ -117,15 +116,16 @@
 
 
 /* Our last bit of RESPONSIVE MAGIC for the fondleslabs and telephones.
- * we have fluid colums so the grow and shrink as the viewport does,
+ * we have fluid columns so the grow and shrink as the viewport does,
  * however, when we get down to telephone size, we no longer have
  * the real estate for two columns, so turn off the floats.  */
 
 
    @media all and (max-width: 640px) {
-      #colone, #coltwo {
+      #column_one, #column_two {
         float: none;
         width: auto;
+        margin: 10px;
       }
     }                                   
 

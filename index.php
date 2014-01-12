@@ -39,6 +39,7 @@
 <meta name="author" content="Mark Addinall.  Brisbane. Australia"  />
 
 <link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/slider.css">
 
 
 <!-- I am going to include a LEETLE bit of Javascript
@@ -68,7 +69,15 @@ if ($debug) {
     <div id="container">
         <div id="header">
             <h1>Here in the Header</h1>
-            <h2>Starting Construction.  Coming SOON!!!</h2>
+            <div id="slider">
+                <figure>
+                    <img src="images/army1.jpg" alt="">
+                    <img src="images/army2.jpg" alt="">
+                    <img src="images/army3.jpg" alt="">
+                    <img src="images/navy2.jpg" alt="">
+                    <img src="images/army1.jpg" alt="">
+                </figure>
+            </div>
         </div>
 
         <div id="column_one">
