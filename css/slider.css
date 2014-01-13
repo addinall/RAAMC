@@ -13,80 +13,145 @@
 */
 
 @-webkit-keyframes slidey {
-    20% { left: 0%; }
-    25% { left: -100%; }
-    45% { left: -100%; }
-    50% { left: -200%; }
-    70% { left: -200%; }
-    75% { left: -300%; }
-    95% { left: -300%; }
-    100% { left: -400%; }
+     5% { left: 0%; }
+    10% { left: -100%; }
+    15% { left: -100%; }
+    20% { left: -200%; }
+    25% { left: -200%; }
+    30% { left: -300%; }
+    35% { left: -300%; }
+    40% { left: -400%; }
+    45% { left: -400%; }
+    50% { left: -500%; }
+    55% { left: -500%; }
+    60% { left: -600%; }
+    65% { left: -600%; }
+    70% { left: -700%; }
+    75% { left: -700%; }
+    80% { left: -800%; }
+    95% { left: -800%; }
+    100% { left: -900%; }
 }
+
+
 
 @-moz-keyframes slidey {
-    20% { left: 0%; }
-    25% { left: -100%; }
-    45% { left: -100%; }
-    50% { left: -200%; }
-    70% { left: -200%; }
-    75% { left: -300%; }
-    95% { left: -300%; }
-    100% { left: -400%; }
+     5% { left: 0%; }
+    10% { left: -100%; }
+    15% { left: -100%; }
+    20% { left: -200%; }
+    25% { left: -200%; }
+    30% { left: -300%; }
+    35% { left: -300%; }
+    40% { left: -400%; }
+    45% { left: -400%; }
+    50% { left: -500%; }
+    55% { left: -500%; }
+    60% { left: -600%; }
+    65% { left: -600%; }
+    70% { left: -700%; }
+    75% { left: -700%; }
+    80% { left: -800%; }
+    95% { left: -800%; }
+    100% { left: -900%; }
 }
+
+
 
 @-o-keyframes slidey {
-    20% { left: 0%; }
-    25% { left: -100%; }
-    45% { left: -100%; }
-    50% { left: -200%; }
-    70% { left: -200%; }
-    75% { left: -300%; }
-    95% { left: -300%; }
-    100% { left: -400%; }
+     5% { left: 0%; }
+    10% { left: -100%; }
+    15% { left: -100%; }
+    20% { left: -200%; }
+    25% { left: -200%; }
+    30% { left: -300%; }
+    35% { left: -300%; }
+    40% { left: -400%; }
+    45% { left: -400%; }
+    50% { left: -500%; }
+    55% { left: -500%; }
+    60% { left: -600%; }
+    65% { left: -600%; }
+    70% { left: -700%; }
+    75% { left: -700%; }
+    80% { left: -800%; }
+    95% { left: -800%; }
+    100% { left: -900%; }
 }
+
+
 
 @-ms-keyframes slidey {
-    20% { left: 0%; }
-    25% { left: -100%; }
-    45% { left: -100%; }
-    50% { left: -200%; }
-    70% { left: -200%; }
-    75% { left: -300%; }
-    95% { left: -300%; }
-    100% { left: -400%; }
+     5% { left: 0%; }
+    10% { left: -100%; }
+    15% { left: -100%; }
+    20% { left: -200%; }
+    25% { left: -200%; }
+    30% { left: -300%; }
+    35% { left: -300%; }
+    40% { left: -400%; }
+    45% { left: -400%; }
+    50% { left: -500%; }
+    55% { left: -500%; }
+    60% { left: -600%; }
+    65% { left: -600%; }
+    70% { left: -700%; }
+    75% { left: -700%; }
+    80% { left: -800%; }
+    95% { left: -800%; }
+    100% { left: -900%; }
 }
 
+
+
 @keyframes slidey {
-    20% { left: 0%; }
-    25% { left: -100%; }
-    45% { left: -100%; }
-    50% { left: -200%; }
-    70% { left: -200%; }
-    75% { left: -300%; }
-    95% { left: -300%; }
-    100% { left: -400%; }
+     5% { left: 0%; }
+    10% { left: -100%; }
+    15% { left: -100%; }
+    20% { left: -200%; }
+    25% { left: -200%; }
+    30% { left: -300%; }
+    35% { left: -300%; }
+    40% { left: -400%; }
+    45% { left: -400%; }
+    50% { left: -500%; }
+    55% { left: -500%; }
+    60% { left: -600%; }
+    65% { left: -600%; }
+    70% { left: -700%; }
+    75% { left: -700%; }
+    80% { left: -800%; }
+    95% { left: -800%; }
+    100% { left: -900%; }
 }
 
 div#slider {
     margin: auto;
-    width: 90%;
+    width: 100%;
     max-width: 500px;
+    border: solid 4px white;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+    -webkit-box-shadow: 10px 10px 13px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 13px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 13px 0px rgba(0,0,0,0.75);
     overflow: hidden; }
 
-div#slider figure img { width: 20%; }
+div#slider figure img { width: 10%; }
 
 div#slider figure {
 
     position: relative;
-    width: 500%;
+    width: 1000%;
     margin: 0;
     left: 0;
     font-size: 0;
-    -webkit-animation: 30s slidey infinite; 
-    -o-animation: 30s slidey infinite; 
-    -moz-animation: 30s slidey infinite; 
-    -ms-animation: 30s slidey infinite; 
-    animation: 30s slidey infinite; 
+    -webkit-animation: 50s slidey infinite; 
+    -o-animation: 50s slidey infinite; 
+    -moz-animation: 50s slidey infinite; 
+    -ms-animation: 50s slidey infinite; 
+    animation: 50s slidey infinite; 
     }
 
 

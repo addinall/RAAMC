@@ -1,4 +1,14 @@
-/* CSS reset */
+/* Custom CSS3 for the RAAMC new web site.
+ * Mark Addinall
+ * January 2014
+ *
+ *  A CSS3 RESET IMPORT.  Just cleans up and spurious
+ *  and troublesome CSS elements that may be hanging around in the DOM.
+ *
+ * VERY Lightweight.  Verifies as CSS3 as usual.
+ *
+*/
+
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
 	margin:0;
 	padding:0;

@@ -1,19 +1,41 @@
+
+/* Custom CSS3 for the RAAMC new web site.
+ * menu.css
+ * The style sheet containing the web site
+ * CSS3 elements that drive the transparent
+ * menu system.
+ *
+ *
+ * Mark Addinall
+ * January 2014
+ *
+ *  A CSS3 style/theme.  It is responsive and FLUID.
+ *  Only contains the TAGs we actually use.
+ *
+ *  Design from scratch for a CUSTOM implementation.
+ *
+ *
+ * VERY Lightweight.  Verifies as CSS3 as usual.
+ *
+*/
+
+
 .bmenu{
     padding: 0px;
-    margin: 0 0 10px 0;
+    margin: 20px;
     position: relative;
-	font-family:'Arial Narrow', Arial, sans-serif;
+	font-family: 'Arimo', Arial, sans-serif;
 }
 .bmenu li{
-    font-size: 32px;
+    font-size: 24px;
     display: block;
 }
 .bmenu li a{
 	white-space: nowrap;
 	display: block;
 	text-transform: uppercase;
-	text-shadow: 1px 1px 2px rgba(71,80,23,0.3);
-	color: #fff;
+	text-shadow: 1px 1px 3px rgba(71,80,23,0.3);
+	color: darkgreen;
 	padding: 5px 20px;
 	margin: 2px;
 	background: rgba(255,255,255,0.2);
@@ -39,11 +61,11 @@
 	border-radius: 0px 0px 15px 15px;
 }
 .bmenu:hover li a{
-	text-shadow: 0px 0px 10px #fff;
+	text-shadow: 0px 0px 5px #fff;
 	color: transparent;
 }
 .bmenu li a:hover{
 	background: transparent;
-	text-shadow: 1px 1px 10px rgba(71,80,23,0.6);
-	color: #c4d85a;
+	text-shadow: 1px 1px 5px rgba(71,80,23,0.6);
+	color: yellow;
 }
