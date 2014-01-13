@@ -1,13 +1,11 @@
-.content{
-	margin: 0 20px;
-}
 .bmenu{
     padding: 0px;
     margin: 0 0 10px 0;
     position: relative;
+	font-family:'Arial Narrow', Arial, sans-serif;
 }
 .bmenu li{
-    font-size: 20px;
+    font-size: 32px;
     display: block;
 }
 .bmenu li a{
@@ -29,11 +27,15 @@
 .bmenu li:first-child a{
 	-webkit-border-radius: 15px 15px 0px 0px;
 	-moz-border-radius: 15px 15px 0px 0px;
+	-o-border-radius: 15px 15px 0px 0px;
+	-ms-border-radius: 15px 15px 0px 0px;
 	border-radius: 15px 15px 0px 0px;
 }
 .bmenu li:last-child a{
 	-webkit-border-radius: 0px 0px 15px 15px;
 	-moz-border-radius: 0px 0px 15px 15px;
+	-o-border-radius: 0px 0px 15px 15px;
+	-ms-border-radius: 0px 0px 15px 15px;
 	border-radius: 0px 0px 15px 15px;
 }
 .bmenu:hover li a{

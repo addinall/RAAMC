@@ -32,8 +32,8 @@
 
 -->
 
-  
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
 <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 <meta name="description" content="A web site created for the members of the Royal Australian Army Medical Corps Association." />
 <meta name="author" content="Mark Addinall.  Brisbane. Australia"  />
@@ -72,17 +72,7 @@ if ($debug) {
 
     <div id="container">
         <div id="header">
-            <h1>Here in the Header - This is my day one wire frame.</h1>
-            <div id="head_left">
-                <ul class="bmenu">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Gallery</a></li>
-                    <li><a href="#">Army News</a></li>
-                    <li><a href="#">Stuff</a></li>
-                </ul>
-            </div>
+            <h1>RAAMC Association</h1>
             <div id="head_right">
                 <div id="slider">
                     <figure>
@@ -93,6 +83,16 @@ if ($debug) {
                         <img src="images/army1.jpg" alt="">
                     </figure>
                 </div>
+            </div>
+            <div id="head_left">
+                <ul class="bmenu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Army</a></li>
+                    <li><a href="#">Stuff</a></li>
+                </ul>
             </div>
         </div>
 
