@@ -126,8 +126,21 @@ html,body {
       #head_right {
         width: 63%;
         float: right;
-          margin: 2px;
+          margin: 5px;
       }
+
+#head_right img {
+    margin: auto;
+    width: 100%;
+    max-width: 500px;
+    border: solid 4px white;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+    -webkit-box-shadow: 10px 10px 13px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 13px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 13px 0px rgba(0,0,0,0.75);
+    overflow: hidden; }
 
       #content {
           width: 100%;

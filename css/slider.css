@@ -12,7 +12,7 @@
  *
 */
 
-@-webkit-keyframes slidey {
+@-webkit-keyframes slide_anim {
      5% { left: 0%; }
     10% { left: -100%; }
     15% { left: -100%; }
@@ -35,7 +35,7 @@
 
 
 
-@-moz-keyframes slidey {
+@-moz-keyframes slide_anim {
      5% { left: 0%; }
     10% { left: -100%; }
     15% { left: -100%; }
@@ -58,7 +58,7 @@
 
 
 
-@-o-keyframes slidey {
+@-o-keyframes slide_anim {
      5% { left: 0%; }
     10% { left: -100%; }
     15% { left: -100%; }
@@ -81,7 +81,7 @@
 
 
 
-@-ms-keyframes slidey {
+@-ms-keyframes slide_anim {
      5% { left: 0%; }
     10% { left: -100%; }
     15% { left: -100%; }
@@ -104,7 +104,7 @@
 
 
 
-@keyframes slidey {
+@keyframes slide_anim {
      5% { left: 0%; }
     10% { left: -100%; }
     15% { left: -100%; }
@@ -147,11 +147,13 @@ div#slider figure {
     margin: 0;
     left: 0;
     font-size: 0;
-    -webkit-animation: 50s slidey infinite; 
-    -o-animation: 50s slidey infinite; 
-    -moz-animation: 50s slidey infinite; 
-    -ms-animation: 50s slidey infinite; 
-    animation: 50s slidey infinite; 
+    -webkit-animation: 50s slide_anim infinite; 
+    -o-animation: 50s slide_anim infinite; 
+    -moz-animation: 50s slide_anim infinite; 
+    -ms-animation: 50s slide_anim infinite; 
+    animation: 50s slide_anim infinite; 
     }
+
+    /* That's it.  The whole thing finished */
 
 

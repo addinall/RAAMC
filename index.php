@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <!--
  vim: set expandtab tabstop=4 shiftwidth=4 autoindent smartindent:
 // CAPTAIN  SLOG
@@ -8,7 +9,7 @@
 //  FILE:       index.php 
 //  SYSTEM:     RAAMC Accociation new web pages 
 //  AUTHOR:     Mark Addinall
-//  DATE:       10/01/2014
+//  DATE:       12/01/2014
 //  SYNOPSIS:
 
     This page in all of it's manifistations is RESPONSIVE and FLUID.
@@ -32,8 +33,6 @@
 
 -->
 
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
 <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 <meta name="description" content="A web site created for the members of the Royal Australian Army Medical Corps Association.">
 <meta name="keywords"  content="Australian, Army, MEDIC, medical, corps, RAAMC, Health, Ambulance, Hospital">
@@ -72,6 +71,12 @@ if ($debug) {
 
 </head>
 
+
+<!-- This is all straightforward HTML at the moment.  When the system
+    gets tied to the Chameleon CMS, this will end up being a template driven
+    PHP HEREDOC.  But we will get the outline woked out first, then we can worry
+    about the CMS -->
+
 <body>
 
     <div id="container">
@@ -80,31 +85,38 @@ if ($debug) {
                 <h1>RAAMC Association</h1>
             </div>
             <div id="head_right">
+
+                <!-- the HERO slider area.  The slider is PURE CSS3.  No FLASH!
+                     no Javascript, nothing but CSS.  It is only a handle full of
+                     lines of code.  Proviso, ALL oy your photos HAVE to be the
+                     same size.  So you need to get your GIMP on!  It only has one transition
+                     at the moment.  Slides to the left.  That's all I need it
+                     to do.  So, rather than 8000 lines of Javascript, we have 61 lines
+                     of CSS  and the little table of figures below.  I chose 9
+                     heros as an arbitary number because base 10 aritmatic makes
+                     calculations a doddle!  I am LAZY!  -->
+
                 <div id="slider">
                     <figure>
-                        <img src="images/army1.jpg" alt="">
-                        <img src="images/army2.jpg" alt="">
-                        <img src="images/army3.jpg" alt="">
-                        <img src="images/army4.jpg" alt="">
-                        <img src="images/army5.jpg" alt="">
-                        <img src="images/army6.jpg" alt="">
-                        <img src="images/army9.jpg" alt="">
-                        <img src="images/navy1.jpg" alt="">
-                        <img src="images/navy2.jpg" alt="">
-                        <img src="images/army1.jpg" alt="">
+                        <img src="images/army1.jpg" alt="A picture of some soldiers">
+                        <img src="images/army2.jpg" alt="A picture of some soldiers">
+                        <img src="images/army3.jpg" alt="A picture of some soldiers">
+                        <img src="images/army4.jpg" alt="A picture of some soldiers">
+                        <img src="images/army5.jpg" alt="A picture of some soldiers">
+                        <img src="images/army6.jpg" alt="A picture of some soldiers">
+                        <img src="images/army9.jpg" alt="A picture of some soldiers">
+                        <img src="images/navy1.jpg" alt="A picture of some sailors">
+                        <img src="images/navy2.jpg" alt="A picture of some sailors">
+                        <img src="images/army1.jpg" alt="A picture of some soldiers">
                     </figure>
                 </div>
             </div>
+
+            <!-- Left hand side of the header is where we ALWAYS keep the menu. 
+                 Again, PURE CSS3, FLUID and RESPONSIVE.  NO Javascript. -->
+
             <div id="head_left">
-                <ul class="bmenu">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Gallery</a></li>
-                    <li><a href="#">ORB</a></li>
-                    <li><a href="#">History</a></li>
-                    <li><a href="#">Links</a></li>
-                </ul>
+                <?php require("menu.php"); ?>
             </div>
         </div>
 
@@ -113,8 +125,9 @@ if ($debug) {
             <div id="column_one">
                 <h1 class="white">Welcome!</h1>
                 <p class="p1">
-                Here we are in the left float...
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                It <em>SHOULD</em> be noted if it is not clear, that this site is a PROTOTYPE and will remain so in the near future.  For current RAAMC events and information, visit the ACTIVE Web site <a href="http://www.raamc.org.au" target="__blank">HERE!</a><br>
+
+                SO now .... Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                 </p>
                 <h1 class="black">And Also...</h1>
                 <p class="p2">
@@ -135,7 +148,7 @@ Fusce convallis congue eros, nec semper nunc. Nam scelerisque elit vitae est tin
             </div>
         </div>
         <div id="footer">
-              (C) RAAMC Association Australia 2014 - Design and Programming by <a href="mailto:addinall@addinall.net">Mark Addinall</a>. 
+            <?php require("footer.php");  ?>
         </div>
     </div>
 </body>
